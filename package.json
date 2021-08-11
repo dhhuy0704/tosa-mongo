@@ -1,0 +1,29 @@
+{
+  "name": "tosa-mongo",
+  "version": "1.0.0",
+  "description": "A self project to build an app that can manage and access data from your mongo database.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git-tommydo.ca:dhhuy0704/tosa-mongo.git"
+  },
+  "author": "Tommy Do",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "debug": "^2.6.9",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "http-errors": "^1.8.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.6",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "ramda": "^0.27.1"
+  }
+}
